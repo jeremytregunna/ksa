@@ -1,4 +1,4 @@
-# Koggle-Stone Adder
+# Kogge-Stone Adder
 
 The Kogge-Stone algorithm is a form of a parallel prefix carry look-ahead
 adder which has a low fan-out at each stage, making it more performant in
