@@ -18,7 +18,6 @@ assign gkj[0]     = i_c0;
 assign gkj[16:1]  = i_gk[15:0];
 assign o_gk[15:0] = i_gk[15:0];
 
-grey gc_0(gkj[0], i_pk[0], i_gk[15], o_gk[15]);
 grey gc_1(gkj[1], i_pk[1], i_gk[16], o_gk[16]);
 grey gc_2(gkj[2], i_pk[2], i_gk[17], o_gk[17]);
 grey gc_3(gkj[3], i_pk[3], i_gk[18], o_gk[18]);
